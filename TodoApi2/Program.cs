@@ -6,6 +6,9 @@ builder.Services.AddDbContext<TodoDb>(opt => opt.UseInMemoryDatabase("TodoList")
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddEndpointsApiExplorer();
 /*builder.Services.AddSwaggerGen();*/
+
+/* in VS studio added this line */
+
 /* test git changes (this change made on git) */
 
 builder.Services.AddSwaggerGen(options =>
