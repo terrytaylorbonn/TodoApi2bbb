@@ -1,0 +1,67 @@
+﻿@TodoApi2_HostAddress = https://localhost:7250
+
+
+POST {{TodoApi2_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true,
+  "secret": "secret2"
+}
+
+
+###
+
+GET {{TodoApi2_HostAddress}}/todoitems
+
+###
+
+GET {{TodoApi2_HostAddress}}/todoitems/1
+
+###
+
+PUT {{TodoApi2_HostAddress}}/todoitems/1
+ContentType: application/json
+
+{
+  "name": "feed fish",
+  "isComplete": false,
+  "secret": "secret1"
+}
+###
+
+DELETE {{TodoApi2_HostAddress}}/todoitems/1
+
+###
+
+POST {{TodoApi2_HostAddress}}/todoitems
+
+###
+
+PUT {{TodoApi2_HostAddress}}/todoitems/{id}
+
+###
+
+POST {{TodoApi2_HostAddress}}/todoitems/
+
+###
+
+POST {{TodoApi2_HostAddress}}/todoitems/
+ContentType: application/json
+
+{
+  "name": "feed fish",
+  "isComplete": false,
+  "secret": "secret1"
+}
+
+###
+
+GET {{TodoApi2_HostAddress}}/todoitems/
+
+###
+
+GET {{TodoApi2_HostAddress}}/todoitems/
+
+###
