@@ -8,6 +8,8 @@ builder.Services.AddEndpointsApiExplorer();
 /*builder.Services.AddSwaggerGen();*/
 /* test git changes (this change made on git) */
 
+/* on github added this line */
+
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
