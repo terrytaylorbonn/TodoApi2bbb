@@ -13,6 +13,9 @@ builder.Services.AddEndpointsApiExplorer();
 
 /* on github added this line */
 
+/* https://learn.microsoft.com/en-us/visualstudio/version-control/git-make-commit?view=vs-2022#stage-changes-and-make-a-commit */
+
+
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
